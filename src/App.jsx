@@ -1,13 +1,10 @@
-import { useEffect, useState } from "react";
-import { Alert, Button, Card, Input, Modal, Radio, Space, Table } from "antd";
-import { Typography } from "antd";
-const { Title } = Typography;
-
+import React , { useEffect, useState } from 'react'
+import { Alert, Button, Card, Input, Layout, Modal, Radio, Space, Table, theme } from "antd";
 import api from "../public/api/api";
 import bus_list from "./bus_list.json";
+import "./styles.css"
 
 function App() {
-  
   const [data, setData] = useState([]);
 
   const columns = [
@@ -136,11 +133,12 @@ function App() {
   };
 
   return (
+    <div style={{backgroundColor: "black"}}>
     <Card title="#Cade Faol ?" >
       <Table
         columns={columns}
         dataSource={bus_list}
-        tableLayout="fixed"
+        tableLayout="auto"
         width={1000}
       />
       <Modal
@@ -152,9 +150,10 @@ function App() {
       >
         <Table columns={columnsAlert} dataSource={data} 
         bordered
-        tableLayout="fixed" />
+        tableLayout="auto" />
       </Modal>
     </Card>
+    </div>
   );
 }
 
