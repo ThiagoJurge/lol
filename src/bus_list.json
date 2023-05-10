@@ -1,0 +1,422 @@
+[
+    {
+        "ID": 164,
+        "NrCarreira": "06B",
+        "NomeCarreira": " 06-B - Cordoeira Micro"
+    },
+    {
+        "ID": 88,
+        "NrCarreira": "04",
+        "NomeCarreira": "04 - V.Pinh/Lag x Cordoeira"
+    },
+    {
+        "ID": 89,
+        "NrCarreira": "05",
+        "NomeCarreira": "05 - Catarcione"
+    },
+    {
+        "ID": 151,
+        "NrCarreira": "05A",
+        "NomeCarreira": "05-A Romualdo Machado"
+    },
+    {
+        "ID": 90,
+        "NrCarreira": "06",
+        "NomeCarreira": "06 - Braunes x Tingly"
+    },
+    {
+        "ID": 163,
+        "NrCarreira": "06A",
+        "NomeCarreira": "06-A - Tingly"
+    },
+    {
+        "ID": 91,
+        "NrCarreira": "07",
+        "NomeCarreira": "07 - Granja Spinelli"
+    },
+    {
+        "ID": 92,
+        "NrCarreira": "08",
+        "NomeCarreira": "08 - S.Cristóvão x Centro"
+    },
+    {
+        "ID": 167,
+        "NrCarreira": "08A",
+        "NomeCarreira": "08-A - Perissê"
+    },
+    {
+        "ID": 176,
+        "NrCarreira": "08B",
+        "NomeCarreira": "08-B - Duas Pedras"
+    },
+    {
+        "ID": 93,
+        "NrCarreira": "10",
+        "NomeCarreira": "10 - Olaria x Conselheiro"
+    },
+    {
+        "ID": 94,
+        "NrCarreira": "10A",
+        "NomeCarreira": "10-A - Olaria x Terra Nova"
+    },
+    {
+        "ID": 95,
+        "NrCarreira": "10B",
+        "NomeCarreira": "10-B - Olaria x São Jorge"
+    },
+    {
+        "ID": 97,
+        "NrCarreira": "16",
+        "NomeCarreira": "16 - Rui Sanglard"
+    },
+    {
+        "ID": 98,
+        "NrCarreira": "17",
+        "NomeCarreira": "17 - Jardinlândia"
+    },
+    {
+        "ID": 99,
+        "NrCarreira": "18",
+        "NomeCarreira": "18 - Santo Andre"
+    },
+    {
+        "ID": 158,
+        "NrCarreira": "18A",
+        "NomeCarreira": "18-A - S. André- Granja Mimosa"
+    },
+    {
+        "ID": 100,
+        "NrCarreira": "20",
+        "NomeCarreira": "20 - Riograndina"
+    },
+    {
+        "ID": 150,
+        "NrCarreira": "20A",
+        "NomeCarreira": "20-A - Riograndina"
+    },
+    {
+        "ID": 123,
+        "NrCarreira": "20B",
+        "NomeCarreira": "20-B - Alto dos Micheis"
+    },
+    {
+        "ID": 101,
+        "NrCarreira": "21",
+        "NomeCarreira": "21 - Furnas"
+    },
+    {
+        "ID": 124,
+        "NrCarreira": "21A",
+        "NomeCarreira": "21-A - Alto do Catete"
+    },
+    {
+        "ID": 154,
+        "NrCarreira": "21B",
+        "NomeCarreira": "21-B - Furnas via Belmonte"
+    },
+    {
+        "ID": 102,
+        "NrCarreira": "22",
+        "NomeCarreira": "22 - Belmonte"
+    },
+    {
+        "ID": 155,
+        "NrCarreira": "22A",
+        "NomeCarreira": "22-A - Belmonte via Stam"
+    },
+    {
+        "ID": 104,
+        "NrCarreira": "24",
+        "NomeCarreira": "24 - Jardim California"
+    },
+    {
+        "ID": 125,
+        "NrCarreira": "25",
+        "NomeCarreira": "25 - Maringá Progresso"
+    },
+    {
+        "ID": 105,
+        "NrCarreira": "26",
+        "NomeCarreira": "26 - A.Floresta Via Floresta"
+    },
+    {
+        "ID": 126,
+        "NrCarreira": "27",
+        "NomeCarreira": "27 - Fazenda da Laje"
+    },
+    {
+        "ID": 106,
+        "NrCarreira": "28",
+        "NomeCarreira": "28 - Maria Teresa"
+    },
+    {
+        "ID": 107,
+        "NrCarreira": "30",
+        "NomeCarreira": "30 - Amparo"
+    },
+    {
+        "ID": 153,
+        "NrCarreira": "30A",
+        "NomeCarreira": "30-A - Amparo Via Barroso"
+    },
+    {
+        "ID": 108,
+        "NrCarreira": "31",
+        "NomeCarreira": "31 - Jacina"
+    },
+    {
+        "ID": 109,
+        "NrCarreira": "31A",
+        "NomeCarreira": "31-A - Orfanato"
+    },
+    {
+        "ID": 170,
+        "NrCarreira": "31B",
+        "NomeCarreira": "31B - Paraiso-Orfan (Jacina)"
+    },
+    {
+        "ID": 110,
+        "NrCarreira": "32",
+        "NomeCarreira": "32 - Nova Suiça"
+    },
+    {
+        "ID": 177,
+        "NrCarreira": "32A",
+        "NomeCarreira": "32-A - Vale do Paraiso"
+    },
+    {
+        "ID": 127,
+        "NrCarreira": "33",
+        "NomeCarreira": "33 - Alto do Schuenck"
+    },
+    {
+        "ID": 111,
+        "NrCarreira": "34",
+        "NomeCarreira": "34 - Toledo"
+    },
+    {
+        "ID": 171,
+        "NrCarreira": "34A",
+        "NomeCarreira": "34A - Toledo Via Colonial61"
+    },
+    {
+        "ID": 172,
+        "NrCarreira": "34B",
+        "NomeCarreira": "34B - Toledo Via J.Reis"
+    },
+    {
+        "ID": 112,
+        "NrCarreira": "35",
+        "NomeCarreira": "35 - Jardim dos Reis"
+    },
+    {
+        "ID": 113,
+        "NrCarreira": "40",
+        "NomeCarreira": "40 - Theodoro"
+    },
+    {
+        "ID": 174,
+        "NrCarreira": "40B",
+        "NomeCarreira": "40B - Loteamento Folly"
+    },
+    {
+        "ID": 114,
+        "NrCarreira": "41",
+        "NomeCarreira": "41 - Alto do Mozer"
+    },
+    {
+        "ID": 115,
+        "NrCarreira": "41A",
+        "NomeCarreira": "41-A - Hospital do Câncer"
+    },
+    {
+        "ID": 116,
+        "NrCarreira": "42",
+        "NomeCarreira": "42 - Alto Olaria"
+    },
+    {
+        "ID": 165,
+        "NrCarreira": "42A",
+        "NomeCarreira": "42-A Alto Olaria S.Paulo"
+    },
+    {
+        "ID": 128,
+        "NrCarreira": "42B",
+        "NomeCarreira": "42-B- Alto de Olaria Paraná"
+    },
+    {
+        "ID": 117,
+        "NrCarreira": "43",
+        "NomeCarreira": "43 - Vargem Grande"
+    },
+    {
+        "ID": 129,
+        "NrCarreira": "43A",
+        "NomeCarreira": "43-A - Sítio São Luiz"
+    },
+    {
+        "ID": 118,
+        "NrCarreira": "44",
+        "NomeCarreira": "44 - Cascatinha"
+    },
+    {
+        "ID": 119,
+        "NrCarreira": "45",
+        "NomeCarreira": "45 - Varginha"
+    },
+    {
+        "ID": 152,
+        "NrCarreira": "45A",
+        "NomeCarreira": "45-A - Varginha Via Ouro Verde"
+    },
+    {
+        "ID": 120,
+        "NrCarreira": "46",
+        "NomeCarreira": "46 - Vargem Alta Via Stuck"
+    },
+    {
+        "ID": 121,
+        "NrCarreira": "46A",
+        "NomeCarreira": "46-A- V. Alta Estrada d.Flores"
+    },
+    {
+        "ID": 122,
+        "NrCarreira": "47",
+        "NomeCarreira": "47 - São Pedro"
+    },
+    {
+        "ID": 166,
+        "NrCarreira": "47A",
+        "NomeCarreira": "47A - São Pedro - Bocaina"
+    },
+    {
+        "ID": 130,
+        "NrCarreira": "48",
+        "NomeCarreira": "48 - Benfica"
+    },
+    {
+        "ID": 131,
+        "NrCarreira": "48A",
+        "NomeCarreira": "48-A - Boa Esperança"
+    },
+    {
+        "ID": 132,
+        "NrCarreira": "48B",
+        "NomeCarreira": "48-B - Stª Luzia Via Lumiar"
+    },
+    {
+        "ID": 133,
+        "NrCarreira": "49",
+        "NomeCarreira": "49 - Rio Bonito"
+    },
+    {
+        "ID": 134,
+        "NrCarreira": "49A",
+        "NomeCarreira": "49-A - Macaé de Cima"
+    },
+    {
+        "ID": 135,
+        "NrCarreira": "50",
+        "NomeCarreira": "50 - São Geraldo"
+    },
+    {
+        "ID": 168,
+        "NrCarreira": "50A",
+        "NomeCarreira": "50-A Vale Da Montanha"
+    },
+    {
+        "ID": 136,
+        "NrCarreira": "51",
+        "NomeCarreira": "51 - Cardinot"
+    },
+    {
+        "ID": 137,
+        "NrCarreira": "51A",
+        "NomeCarreira": "51-A - Corrego Dantas"
+    },
+    {
+        "ID": 138,
+        "NrCarreira": "52",
+        "NomeCarreira": "52 - Sta. Bernadete"
+    },
+    {
+        "ID": 139,
+        "NrCarreira": "52A",
+        "NomeCarreira": "52-A - Nova Esperança"
+    },
+    {
+        "ID": 140,
+        "NrCarreira": "52B",
+        "NomeCarreira": "52-B - Solares"
+    },
+    {
+        "ID": 175,
+        "NrCarreira": "52C",
+        "NomeCarreira": "52C - N. Esperança/S. Bernadete"
+    },
+    {
+        "ID": 141,
+        "NrCarreira": "53",
+        "NomeCarreira": "53 - Conquista"
+    },
+    {
+        "ID": 142,
+        "NrCarreira": "53A",
+        "NomeCarreira": "53-A - Alto dos Vieiras"
+    },
+    {
+        "ID": 143,
+        "NrCarreira": "53B",
+        "NomeCarreira": "53-B - Fazenda Rio Grande"
+    },
+    {
+        "ID": 144,
+        "NrCarreira": "53C",
+        "NomeCarreira": "53-C - Barracão dos Mendes"
+    },
+    {
+        "ID": 145,
+        "NrCarreira": "53D",
+        "NomeCarreira": "53-D - Salinas"
+    },
+    {
+        "ID": 173,
+        "NrCarreira": "53E",
+        "NomeCarreira": "53-E - Conquista - C.Coelho"
+    },
+    {
+        "ID": 146,
+        "NrCarreira": "54",
+        "NomeCarreira": "54 - Pilões"
+    },
+    {
+        "ID": 147,
+        "NrCarreira": "55",
+        "NomeCarreira": "55 - São Lourenço"
+    },
+    {
+        "ID": 169,
+        "NrCarreira": "55C",
+        "NomeCarreira": "55-C - S.Lourenço Via B. Mendes"
+    },
+    {
+        "ID": 148,
+        "NrCarreira": "57",
+        "NomeCarreira": "57 - Rio Grande de Cima"
+    },
+    {
+        "ID": 149,
+        "NrCarreira": "58",
+        "NomeCarreira": "58 - Campo do Coelho"
+    },
+    {
+        "ID": 156,
+        "NrCarreira": "58A",
+        "NomeCarreira": "58-A - Campo Coelho -Saibreira"
+    },
+    {
+        "ID": 157,
+        "NrCarreira": "58B",
+        "NomeCarreira": "58-B - Campo Coelho -M. Bonita"
+    }
+]
