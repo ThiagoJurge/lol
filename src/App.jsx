@@ -136,7 +136,7 @@ function App() {
   };
 
   return (
-    <Card title="Sistema de Acompanhamento - LOL" >
+    <Card title="#Cade Faol ?" >
       <Table
         columns={columns}
         dataSource={bus_list}
