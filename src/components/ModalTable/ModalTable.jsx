@@ -2,6 +2,8 @@ import { Table } from 'antd'
 import React from 'react'
 import { getDate } from '../../utils/getDate';
 import { formatCoord } from '../../utils/formatCoord';
+import { CiLocationOff } from 'react-icons/ci'
+import Title from 'antd/es/typography/Title';
 
 const ModalTable = ({ data }) => {
     const columns = [
@@ -50,11 +52,17 @@ const ModalTable = ({ data }) => {
         },
     ];
     return (
+        <>
+        {data[0] ? 
+        
         <Table
             columns={columns}
             dataSource={data}
             tableLayout="auto"
-        />
+        /> : 
+<center><Title level={1} ><CiLocationOff color='red'/> Sem comunicação com o GPS</Title></center>        
+        }
+        </>
     )
 }
 
