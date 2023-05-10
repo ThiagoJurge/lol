@@ -178,7 +178,7 @@ const MainTable = () => {
             <Table
                 columns={columns}
                 dataSource={bus_list}
-                tableLayout="fixed"
+                tableLayout="auto"
             />
             <ModalQuery isModalOpen={isModalOpen} handleOk={handleOk} data={data} />
         </>
