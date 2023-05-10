@@ -135,16 +135,6 @@ const MainTable = () => {
             ...getColumnSearchProps('NomeCarreira'),
         },
         {
-            title: "Consultas",
-            dataIndex: "NrCarreira",
-            key: "NrCarreira",
-            render: (text) => (
-                <Button type="default" onClick={() => showModal(text)}>
-                    Consultar
-                </Button>
-            ),
-        },
-        {
             title: "Horários",
             dataIndex: "NrCarreira",
             key: "NrCarreira",
@@ -156,6 +146,16 @@ const MainTable = () => {
                         <ButtonHorario n_onibus={text} tabela={"D"} />
                     </Space.Compact>
                 </>
+            ),
+        },
+        {
+            title: "Consultas",
+            dataIndex: "NrCarreira",
+            key: "NrCarreira",
+            render: (text) => (
+                <Button type="default" onClick={() => showModal(text)}>
+                    Consultar
+                </Button>
             ),
         },
     ];
