@@ -6,14 +6,14 @@ const { darkAlgorithm, compactAlgorithm } = theme;
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ConfigProvider
-      theme={{
-        algorithm: [compactAlgorithm, darkAlgorithm],
-        token: {
-          colorPrimary: "#244472",
-          wireframe: false,
-        },
-      }}
-    >
+    theme={{
+      algorithm: [compactAlgorithm, darkAlgorithm],
+      token: {
+        colorPrimary: "#244472",
+        wireframe: false,
+      },
+    }}
+  >
     <App />
   </ConfigProvider>,
 )
