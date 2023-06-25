@@ -1,10 +1,12 @@
+import { LinkOutlined } from "@ant-design/icons";
 import { Button } from "antd";
 import React from "react";
 
 const ButtonHorario = ({ n_onibus, tabela }) => {
     return (
         <Button
-            type="default"
+        icon={<LinkOutlined />}
+            type="text"
             target="_blank"
             href={
                 "https://faol.com.br/tabelas/" +

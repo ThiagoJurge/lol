@@ -1,16 +1,11 @@
-import React from "react";
-import { Card } from "antd";
-import MainTable from "./components/MainTable/MainTable";
-import Title from "antd/es/typography/Title";
-import { ImLocation } from "react-icons/im"
+import React from 'react'
+import AppRoutes from './Routes'
+import './App.css'
 
-function App() {
-
+const App = () => {
   return (
-    <Card title={<center><Title level={1}><ImLocation /> Cade Faol </Title></center>}>
-      <MainTable />
-    </Card>
-  );
+    <AppRoutes/>
+  )
 }
 
-export default App;
+export default App
