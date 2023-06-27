@@ -1,9 +1,9 @@
 import React from 'react'
-import BusMap from './components/BusMap/BusMap'
+import MapBus from './components/MapBus/MapBus'
 
 const App = () => {
   return (
-    <BusMap/>
+    <MapBus/>
   )
 }
 
