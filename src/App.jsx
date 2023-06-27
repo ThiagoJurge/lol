@@ -1,10 +1,9 @@
 import React from 'react'
-import AppRoutes from './Routes'
-import './App.css'
+import BusMap from './components/busMap/busMap'
 
 const App = () => {
   return (
-    <AppRoutes/>
+    <BusMap/>
   )
 }
 

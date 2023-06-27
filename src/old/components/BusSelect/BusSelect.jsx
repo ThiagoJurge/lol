@@ -57,10 +57,7 @@ function BusSelect() {
               data.map((item) => (
                 <Option
                   key={item.ID}
-                  value={`${item.NrCarreira}/${item.NomeCarreira.replace(
-                    "/",
-                    ""
-                  )}/${item.ID}`}
+                  value={item.ID}
                 >
                   {item.NomeCarreira}
                 </Option>
