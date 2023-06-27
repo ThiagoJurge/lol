@@ -9,7 +9,7 @@ import BusStops from "../BusStops/BusStops";
 import BusLocation from "../BusLocation/BusLocation";
 import { icon } from "leaflet";
 
-const BusMap = () => {
+export const BusMap = () => {
   const [open, setOpen] = useState(false);
   const [selectedValue, setSelectedValue] = useState([]);
   const [selectedWay, setSelectedWay] = useState([]);
@@ -90,5 +90,3 @@ const BusMap = () => {
     </>
   );
 };
-
-export default BusMap;
