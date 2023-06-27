@@ -1,5 +1,5 @@
 import React from 'react'
-import BusMap from './components/BusMap/busMap'
+import BusMap from './components/BusMap/BusMap'
 
 const App = () => {
   return (

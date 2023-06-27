@@ -35,7 +35,6 @@ const BusList = ({ onSelectChange }) => {
       onChange={handleSelectChange}
       filterOption={filterOptions}
       placeholder="Para onde você está indo?"
-      defaultValue={164}
     >
       {Object.keys(data).length > 0 &&
         data.map((item) => (
