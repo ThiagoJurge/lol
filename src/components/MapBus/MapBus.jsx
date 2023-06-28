@@ -109,23 +109,26 @@ const MapBus = () => {
             </Link>
           </Paragraph>
         }
-        style={{textAlign: "center"}}
+        style={{ textAlign: "center" }}
       >
         <BusList onSelectChange={handleSelectChange} />
-        <Divider>Sentido</Divider>
         {selectedValue[0] && (
-          <BusWay id={selectedValue[0]} selectedWay={selectedWayChange} />
+          <>
+            <Divider>Sentido</Divider>
+            <BusWay id={selectedValue[0]} selectedWay={selectedWayChange} />
+          </>
         )}
-        <Divider>Horários</Divider>
 
         {selectedValue[1] && (
-          <Space.Compact block>
-            <ButtonHorario n_onibus={selectedValue[1]} tabela="U" />
-            <ButtonHorario n_onibus={selectedValue[1]} tabela="S" />
-            <ButtonHorario n_onibus={selectedValue[1]} tabela="D" />
-          </Space.Compact>
+          <>
+            <Divider>Horários</Divider>
+            <Space.Compact block>
+              <ButtonHorario n_onibus={selectedValue[1]} tabela="U" />
+              <ButtonHorario n_onibus={selectedValue[1]} tabela="S" />
+              <ButtonHorario n_onibus={selectedValue[1]} tabela="D" />
+            </Space.Compact>
+          </>
         )}
-
       </Drawer>
     </>
   );
