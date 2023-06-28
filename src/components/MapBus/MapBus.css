@@ -1,0 +1,9 @@
+.BusIcon {
+    z-index: 9999;
+    position: absolute;
+}
+
+.BusStopIcon {
+    z-index: 1;
+    position: absolute;
+}
