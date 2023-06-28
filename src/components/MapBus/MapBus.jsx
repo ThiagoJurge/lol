@@ -1,12 +1,15 @@
-import { Button, Divider, Drawer } from "antd";
+import { Button, Divider, Drawer, Space } from "antd";
 import React, { useEffect, useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { MenuOutlined } from "@ant-design/icons";
+import { LinkedinOutlined, MenuOutlined } from "@ant-design/icons";
 import BusList from "../BusList/BusList";
 import BusWay from "../BusWay/BusWay";
 import BusStops from "../BusStops/BusStops";
 import BusLocation from "../BusLocation/BusLocation";
-import './MapBus.css'
+import "./MapBus.css";
+import Paragraph from "antd/es/typography/Paragraph";
+import Link from "antd/es/typography/Link";
+import ButtonHorario from "../ButtonHorario/ButtonHorario";
 
 const MapBus = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +27,7 @@ const MapBus = () => {
     popupAnchor: [-3, -76],
     shadowSize: [68, 95],
     shadowAnchor: [22, 94],
-    className: 'BusIcon'
+    className: "BusIcon",
   });
   const BusStopIcon = L.icon({
     iconUrl: BUS_STOP_ICON_URL,
@@ -32,7 +35,7 @@ const MapBus = () => {
     popupAnchor: [-3, -76],
     shadowSize: [68, 95],
     shadowAnchor: [22, 94],
-    className: 'BusStopIcon'
+    className: "BusStopIcon",
   });
 
   const showDrawer = () => {
@@ -74,24 +77,55 @@ const MapBus = () => {
         style={{
           minWidth: "80vw",
           minHeight: "95vh",
-          position: 'relative'
+          position: "relative",
         }}
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        {selectedWay[1] && selectedValue ? <BusLocation
-          id={selectedValue[1]}
-          icon={BusIcon}
-          direcao={selectedWay[1]}
-        /> : null}
+        {selectedWay[1] && selectedValue ? (
+          <BusLocation
+            id={selectedValue[1]}
+            icon={BusIcon}
+            direcao={selectedWay[1]}
+          />
+        ) : null}
         <BusStops
           id={selectedWay.length > 0 && selectedWay[0]}
           icon={BusStopIcon}
         />
       </MapContainer>
-      <Drawer title="Menu" placement="right" onClose={onClose} open={open}>
+      <Drawer
+        title="Menu"
+        placement="right"
+        onClose={onClose}
+        open={open}
+        footer={
+          <Paragraph strong>
+            [BETA] Developed by{" "}
+            <Link
+              href="https://www.linkedin.com/in/thiago-jurge/"
+              target="_blank"
+            >
+              <LinkedinOutlined /> TJurge
+            </Link>
+          </Paragraph>
+        }
+        style={{textAlign: "center"}}
+      >
         <BusList onSelectChange={handleSelectChange} />
-        <Divider />
-        {selectedValue[0] && <BusWay id={selectedValue[0]} selectedWay={selectedWayChange} />}
+        <Divider>Sentido</Divider>
+        {selectedValue[0] && (
+          <BusWay id={selectedValue[0]} selectedWay={selectedWayChange} />
+        )}
+        <Divider>Horários</Divider>
+
+        {selectedValue[1] && (
+          <Space.Compact block>
+            <ButtonHorario n_onibus={selectedValue[1]} tabela="U" />
+            <ButtonHorario n_onibus={selectedValue[1]} tabela="S" />
+            <ButtonHorario n_onibus={selectedValue[1]} tabela="D" />
+          </Space.Compact>
+        )}
+
       </Drawer>
     </>
   );

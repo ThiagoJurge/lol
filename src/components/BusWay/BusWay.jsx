@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { callApi } from "../../api/api";
-import { Radio, Select } from "antd";
-import Paragraph from "antd/es/typography/Paragraph";
+import { Radio } from "antd";
 
 const BusWay = ({ id, selectedWay }) => {
   const [data, setData] = useState([]);
@@ -22,8 +21,6 @@ const BusWay = ({ id, selectedWay }) => {
   };
 
   return (
-    <>
-      <Paragraph>Sentido: </Paragraph>
         <Radio.Group onChange={handleSelectChange}>
           {Object.keys(data).length > 0 && data.map((item) => (
             <Radio key={item.ID} value={`[${item.ID}, "${item.Direction}"]`}>
@@ -31,8 +28,6 @@ const BusWay = ({ id, selectedWay }) => {
             </Radio>
           ))}
         </Radio.Group>
-      
-    </>
   );
 };
 
