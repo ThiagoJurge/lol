@@ -34,13 +34,13 @@ class Request {
         }
         this.getBusLocation = async function (id) {
             try {
-                
+
                 const response = await api.get(`/MobileActualState/Get?route=${id}`)
                 return response.data
             } catch (error) {
-                console.log(error) 
+                console.log(error)
             }
-            
+
         }
     }
 }

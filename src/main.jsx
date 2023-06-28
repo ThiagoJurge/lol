@@ -8,16 +8,16 @@ import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-  <ConfigProvider
-    theme={{
-      algorithm: [darkAlgorithm],
-      token: {
-        colorPrimary: "#244472",
-        wireframe: false,
-      },
-    }}
-  >
-    <App />
-  </ConfigProvider>
+    <ConfigProvider
+      theme={{
+        algorithm: [darkAlgorithm],
+        token: {
+          colorPrimary: "#244472",
+          wireframe: false,
+        },
+      }}
+    >
+      <App />
+    </ConfigProvider>
   </BrowserRouter>
 );

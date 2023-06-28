@@ -21,13 +21,14 @@ const BusWay = ({ id, selectedWay }) => {
   };
 
   return (
-        <Radio.Group onChange={handleSelectChange}>
-          {Object.keys(data).length > 0 && data.map((item) => (
-            <Radio key={item.ID} value={`[${item.ID}, "${item.Direction}"]`}>
-              {item.Direction == "Down" ? "Estação Livre" : "Bairro"}
-            </Radio>
-          ))}
-        </Radio.Group>
+    <Radio.Group onChange={handleSelectChange}>
+      {Object.keys(data).length > 0 &&
+        data.map((item) => (
+          <Radio key={item.ID} value={`[${item.ID}, "${item.Direction}"]`}>
+            {item.Direction == "Down" ? "Estação Livre" : "Bairro"}
+          </Radio>
+        ))}
+    </Radio.Group>
   );
 };
 

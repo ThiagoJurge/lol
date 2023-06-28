@@ -77,8 +77,15 @@ const BusMap = () => {
         }}
       >
         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-        <BusLocation id={selectedValue[1]} icon={BusIcon} direcao={selectedWay[1]}/>
-        <BusStops id={selectedWay.length > 0 && selectedWay[0]} icon={BusStopIcon} />
+        <BusLocation
+          id={selectedValue[1]}
+          icon={BusIcon}
+          direcao={selectedWay[1]}
+        />
+        <BusStops
+          id={selectedWay.length > 0 && selectedWay[0]}
+          icon={BusStopIcon}
+        />
       </MapContainer>
       <Drawer title="Menu" placement="right" onClose={onClose} open={open}>
         <BusList onSelectChange={handleSelectChange} />
@@ -91,4 +98,4 @@ const BusMap = () => {
   );
 };
 
-export default BusMap
+export default BusMap;

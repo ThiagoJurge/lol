@@ -62,6 +62,7 @@ const MapBus = () => {
         type="default"
         shape="circle"
         icon={<MenuOutlined />}
+        size="large"
         style={{
           position: "absolute",
           bottom: 40,

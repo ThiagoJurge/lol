@@ -1,10 +1,8 @@
-import React from 'react'
-import MapBus from './components/MapBus/MapBus'
+import React from "react";
+import MapBus from "./components/MapBus/MapBus";
 
 const App = () => {
-  return (
-    <MapBus/>
-  )
-}
+  return <MapBus />;
+};
 
-export default App
+export default App;
